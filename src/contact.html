@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Contact-from</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="property1.html">Property 1</a></li>
+            <li><a href="property2.html">Property 2</a></li>
+            <li><a href="property3.html">Property 3</a></li>
+            <li><a href="available-properties.html">Available Properties</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </nav>
+    </header>
+    
+    <h2>CONTACT PAGE</h2>
+    <fieldset>
+
+      <form id="contactForm">
+        <h1>Member Registration</h1>
+        <br>
+        <h2>Please complete all the fields below</h2>
+        <!-- form input fields -->
+        <label for="firstName">FirstName:</label>
+        <input type="text" id="firstName" name="firstName" required/><br><br>
+
+        <label for="Lastname">LastName:</label>
+          <input type="text" id="lastName" name="lastName" required/><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required/><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/><br><br>
+
+        <label for="typeOfProperty">Type of property:</label>
+        <input type="text" id="typeOfProperty" name="typeOfProperty" required/><br><br>
+        
+        <label for="numOfBedrooms">Number of bedrooms:</label>
+        <input type="number" id="numOfBedrooms" name="numOfBedrooms" required/><br><br>
+        
+        <label for="numOfBathrooms">Number of bathrooms:</label>
+        <input type="number" id="numOfBathrooms" name="numOfBathrooms" required/><br><br>
+        
+        <label for="priceRange">Price range:</label>
+        <input type="text" id="priceRange" name="priceRange" required/><br><br>
+        
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments" name="comments" ></textarea>
+               
+        <br><br>
+        <!-- buttons -->
+        <button type="submit">Register Now</button>
+        <button type="reset">Clear Form</button>
+
+        <p>&copy;Copyright Meow</p>
+      </form>
+      
+    </fieldset>
+
+    <script src="index.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
